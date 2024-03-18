@@ -1,5 +1,5 @@
-# PasswordManagerProject V1.0.1
-PasswordManagerProject V1.0.1  Remastered
+# PasswordManagerProject V1.0.2
+PasswordManagerProject V1.0.2  Remastered
 
 Choose an option: 
 1. Generate Password 
@@ -27,3 +27,10 @@ Choose an option:
 6. Debug(Unsafe size) "  # Size of 200000 (Not implemented)
 
 Please report any bugs if you find any.
+-----
+
+# Imports
+As of version 1.0.2 
+import string
+import random
+import time

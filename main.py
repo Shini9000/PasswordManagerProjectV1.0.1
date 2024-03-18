@@ -1,17 +1,26 @@
 import string
 import random
+import time
+
+project_version = '1.0.2'
+
+print(f"Welcome to the PasswordManager Application version: " + project_version +
+      f"\nFor more information please go to the github @"
+      f"\nhttps://github.com/Shini9000/PasswordManagerProject"
+      f"\nAnd thank you for downloading and testing my application :)\n\n")
 
 # true loop
 while True:
+    time.sleep(3.5)
     # Main menu loop
     user_input = input(f"Choose an option: "
-                       f"\n\n1. Generate Password "
-                       f"\n2. View Passwords "
-                       f"\n3. View Accounts "
-                       f"\n4. Add Account "
-                       f"\n5. Delete Account "
-                       f"\n6. Exit Application "
-                       f"\n\nEnter Input: ")
+                       f"\n     1. Generate Password "
+                       f"\n     2. View Passwords "
+                       f"\n     3. View Accounts "
+                       f"\n     4. Add Account "
+                       f"\n     5. Delete Account "
+                       f"\n     6. Exit Application "
+                       f"\nEnter Input: ")
     try:
         val = int(user_input)
     except ValueError:
@@ -58,8 +67,10 @@ while True:
                         print(f'Returning to main menu!')
                     case 4:
                         generic_letters = string.ascii_letters
+                        numbers = string.digits
+                        string_line = numbers + generic_letters
                         result_string = ''.join(
-                            (random.choice(generic_letters) for i in range(int(input("Select a password length: ")))))
+                            (random.choice(string_line) for i in range(int(input("Select a password length: ")))))
                         result_string.startswith("\n")
                         print("\n" + result_string + "\n")
                         print(f'Returning to main menu!')
