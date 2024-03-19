@@ -1,0 +1,33 @@
+Usage on using program:
+Using the password generator requires a selection on what type of password you wish to generate:
+
+1. Uppercase
+    - Contains Uppercase characters
+    - This generates a password similar to "WOJHPWRJHR"
+    - It will take into consideration what length you want [Character amount].
+2. Lowercase
+    - Contains Lowercase characters
+    - This generates a password similar to "dlobycyyng"
+    - It will take into consideration what length you want [Character amount].
+3. Numbers
+    - Contains Number characters
+    - This generates a password similar to "0828292346"
+    - It will take into consideration what length you want [Character amount].
+4. Mix
+    - Contains Uppercase, Lowercase & Number characters
+    - This generates a password similar to "w7NhR9Me6d"
+    - It will take into consideration what length you want [Character amount].
+5. GenericPassword
+    - Contains Uppercase, Lowercase, Numbers and Symbols characters
+    - This generates a password similar to "O[F[|<25?\"
+    - It will take into consideration what length you want [Character amount].
+
+Leaving feedback:
+Please feel free to leave feedback on all my repos on github (see README.MD)
+I accept contact through
+- Discord
+- Instagram
+- Github
+- Email
+- Website (Not available as of release 1.0.3)
+
